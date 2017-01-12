@@ -1,5 +1,5 @@
 * {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 0;
 	padding: 0;
 	font-family: "lato", sans-serif;
@@ -21,8 +21,15 @@ nav a {
 #search {
 	display: inline-block;
 	float: right;
-	margin-right: 85px;
-	margin-top: 11px;
+	margin-right: 65px;
+	margin-top: 14px;
+}
+
+i:nth-child(1) {
+	color: black;
+}
+
+input {
 	border: none;
 }
 
@@ -36,7 +43,7 @@ nav a {
 }*/
 
 header {
-	height: 400px;
+	height: 352px;
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
@@ -74,11 +81,10 @@ hr {
 }
 
 #content {
-	height: 4000px;
+	
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 30px;
 }
 
 #content p {
@@ -89,17 +95,60 @@ hr {
 	margin: 3% 0;
 }
 
-#script {
-	color: red;
+#content p:nth-child(5) {
+	font-family: "Petit formal script", cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	width: 60%;
+	margin-left: 5%;
+	margin-top: 2%;
+	line-height: 36px;
 }
 
-/*#content img {
-	margin-top: 30px;
-	margin-bottom:30px;
-}*/
+span {
+	font-family: "lato", sans-serif;
+	font-size: 24px;
+}
 
+.images {
+	height: 450px;
+}
 
+.images img {
+	float:left;
+}
 
+div.images {
+	width: 84%;
+	margin: 0 auto;
+}
+
+.images img:nth-child(2), img:nth-child(3) {
+	float: right;
+}
+
+.images img:last-child {
+	padding-top: 5px;
+	padding-right: 2px;
+}
+
+i {
+	color: #E04F4A;
+	display: inline-block;
+}
+
+.heart {
+	text-align: center;
+}
 /*why when I view in device view (like from
 iphone, it doesn't get smaller but the 
-example does?*/
+example does?
+
+how do I select the script id <p>?
+how do I add the like button, is it 
+supposed to work? 
+
+
+
+*/
